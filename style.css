@@ -1,0 +1,110 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top {
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.top-bar{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+
+}
+
+.top-buttons{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.pic{
+    background-color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.bottom-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.button{
+    background-color: blue;
+    padding: 15px 32px
+}
+
+.top-buttons2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.account{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.details{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.highlights{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.highlights img{
+    height: 100px;
+    width: 100px;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.images img{
+    width: fit-content;
+    height: auto;
+}
